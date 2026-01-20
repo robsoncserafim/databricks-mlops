@@ -29,7 +29,6 @@ targets:
     workspace:
       host: <your host>
       root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.target}/${bundle.name}
-      profile: marvelous
     variables:
       schedule_pause_status: PAUSED
 
@@ -39,7 +38,6 @@ targets:
     workspace:
       host: <your host>
       root_path: /Shared/.bundle/${bundle.target}/${bundle.name}
-      profile: marvelous
     variables:
       schedule_pause_status: PAUSED
 
@@ -48,6 +46,5 @@ targets:
     workspace:
       host: <your host>
       root_path: /Shared/.bundle/${bundle.target}/${bundle.name}
-      profile: marvelous
     variables:
       schedule_pause_status: PAUSED # normally UNPAUSED
